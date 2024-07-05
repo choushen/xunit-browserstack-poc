@@ -1,9 +1,7 @@
-﻿Feature: Feature1
-
+﻿Feature: Sample
 A short summary of the feature
 
-@tag1
-Scenario: [scenario name]
-	Given [context]
-	When [action]
-	Then [outcome]
+Scenario: Sample
+	Given I launch the app
+	When I perform some action
+	Then I verify the result

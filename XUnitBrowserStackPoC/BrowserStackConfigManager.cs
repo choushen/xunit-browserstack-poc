@@ -1,28 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
 
 namespace XUnitBrowserStackPoC
 {
-
     public class BrowserStackConfigManager
     {
-        public string UserName { get; set; }
-        public string AccessKey { get; set; }
-        public string ProjectName { get; set; }
-        public string BuildName { get; set; }
-        public string BuildTag { get; set; }
-        public string BuildIdentifier { get; set; }
-        public string App { get; set; }
-        public Platform[] Platforms { get; set; }
-        public bool BrowserStackLocal { get; set; }
-        public bool Debug { get; set; }
-        public bool NetworkLogs { get; set; }
-        public string ConsoleLogs { get; set; }
+        public string userName { get; set; }
+        public string accessKey { get; set; }
+        public string projectName { get; set; }
+        public string buildName { get; set; }
+        public string buildTag { get; set; }
+        public string buildIdentifier { get; set; }
+        public string app { get; set; }
+        public Platform[] platforms { get; set; }
+        public bool browserstackLocal { get; set; }
+        public bool debug { get; set; }
+        public bool networkLogs { get; set; }
+        public string consoleLogs { get; set; }
 
         public static BrowserStackConfigManager Load(string path)
         {
@@ -39,9 +36,8 @@ namespace XUnitBrowserStackPoC
 
     public class Platform
     {
-        public string DeviceName { get; set; }
-        public string OsVersion { get; set; }
-        public string PlatformName { get; set; }
+        public string deviceName { get; set; }
+        public string osVersion { get; set; }
+        public string platformName { get; set; }
     }
 }
-
