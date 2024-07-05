@@ -46,7 +46,7 @@ browserstack.yml: Configuration file for BrowserStack credentials and capabiliti
 - [BrowserStack Appium Integration](https://www.browserstack.com/docs/app-automate/appium/getting-started)
 - [SpecFlow Documentation](https://specflow.org/documentation/)
 - [xUnit Documentation](https://xunit.net/)
-- [Appium Documentation]([https://appium.io/docs/en/about-appium/intro/](https://appium.io/docs/en/latest/quickstart/test-dotnet/))
+- [Appium Documentation](https://appium.io/docs/en/latest/quickstart/test-dotnet/)
 - [BrowserStack nunit-appium-app-browserstack GitHub Repository](https://github.com/browserstack/nunit-appium-app-browserstack)
 
 This section includes links to the relevant documentation and resources for BrowserStack, SpecFlow, xUnit, and Appium.
